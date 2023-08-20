@@ -1,12 +1,9 @@
 
-README
-------
-
-This plugin can be used to update the IP Geolocation database provided by Maxmind in dotcms.
-
+# README
+This plugin can be used to update the GeoIp database that is shipped with dotCMS. 
 
 ## How to update your MaxMind Geo IPdatabase
--------------------------
+
 
 
 Purchase and download an updated version of the `GeoLite2-City.mmdb` database from https://www.maxmind.com.  Clone this plugin locally and place the new version of the database into the `src/main/resources` directory making sure it is named `GeoLite2-City.mmdb`.  Then run  `./gradlew jar` from the plugin root directory.   This will create two jars in the `build/libs` directory, both of which should be uploaded via the dotCMS plugin screen.
